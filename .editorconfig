@@ -1,0 +1,35 @@
+root = true
+
+[.editorconfig]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[.git*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+insert_final_newline = true
+tab_width = 8
+trim_trailing_whitespace = true
+
+[*.rb]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+
+# Trailing space is significant in Markdown (two spaces = line break).
+trim_trailing_whitespace = false
